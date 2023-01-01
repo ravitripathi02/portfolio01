@@ -66,8 +66,10 @@ export default function Home() {
               <AiFillLinkedin />
               <AiFillYoutube />
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+            <div className="flex ">
+              <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+                <Image src={deved} layout="fill" objectFit="cover" />
+              </div>
             </div>
           </div>
         </section>
@@ -275,13 +277,15 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div id="contact" className="w-full ">
-            <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
+        </section>
+        <section>
+          <div className="w-full ">
+            <div className="max-w-screen-xl mx-auto py-16 text-center md:text-left">
               <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-center text-[#5651e5] font-bold">
                 contact
               </h2>
 
-              <div className="flex flex-col md:flex-row gap-8 shadow-xl shadow-gray-600 dark:bg-black mt-4 dark:text-gray-200">
+              <div className="flex flex-col md:flex-row gap-8 shadow-xl shadow-gray-600 dark:bg-gray-900 mt-4 dark:text-gray-200">
                 <div className="w-full md:w-1/2 h-full rounded-xl p-4">
                   <Image
                     src={contactus}
@@ -315,7 +319,7 @@ export default function Home() {
                       action="https://getform.io/f/357378e6-dce8-451c-8d15-226c219dc76a"
                       method="POST"
                     >
-                      <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+                      <div className="grid grid-cols-2 gap-4 w-full py-2">
                         <div className="flex flex-col">
                           <label className="capitalize text-sm py-2 text-slate-600 font-light dark:text-gray-200">
                             name
