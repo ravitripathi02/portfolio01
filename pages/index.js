@@ -15,7 +15,7 @@ import Image from "next/image";
 import web1 from "../public/design.gif";
 import web2 from "../public/github.png";
 import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
+import web4 from "../public/calculator.gif";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import contactus from "../public/contact-us.png";
@@ -199,7 +199,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col  lg:flex-row lg:flex-wrap basis-1/3 flex-1">
             <div className=" mx-auto grid md:grid-cols-2 gap-8">
-              <a href="https://github.com/ravitripathi02/book_recommender" className="py-4">
+              <a href="#" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
                     src={web1}
@@ -211,7 +211,7 @@ export default function Home() {
                   </h2>
                 </div>
               </a>
-              <a href="https://ravitripathi02.github.io/githubprofilefinder/one.html" className="py-4">
+              <a href="#" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay ">
                   <Image
                     src={web2}
@@ -228,7 +228,7 @@ export default function Home() {
               <a href="#" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
-                    src={web4}
+                    src={web5}
                     alt="random"
                     className="rounded-md duration-200 hover:scale-105"
                   />
@@ -237,7 +237,10 @@ export default function Home() {
                   </h2>
                 </div>
               </a>
-              <a href="#" className="py-4">
+              <a
+                href="https://ravitripathi02.github.io/calculator/calculator.html"
+                className="py-4"
+              >
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
                     src={web4}
@@ -245,7 +248,7 @@ export default function Home() {
                     className="rounded-md duration-200 hover:scale-105"
                   />
                   <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4 dark:text-gray-200">
-                    One
+                    Voice Based Calculator
                   </h2>
                 </div>
               </a>
@@ -254,7 +257,7 @@ export default function Home() {
               <a href="#" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
-                    src={web4}
+                    src={web5}
                     alt="random"
                     className="rounded-md duration-200 hover:scale-105"
                   />
@@ -266,7 +269,7 @@ export default function Home() {
               <a href="#" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
-                    src={web4}
+                    src={web5}
                     alt="random"
                     className="rounded-md duration-200 hover:scale-105"
                   />
@@ -379,5 +382,3 @@ export default function Home() {
     </div>
   );
 }
-
-
