@@ -13,7 +13,7 @@ import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/design.gif";
-import web2 from "../public/web2.png";
+import web2 from "../public/github.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
@@ -214,12 +214,12 @@ export default function Home() {
               <a href="#" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay ">
                   <Image
-                    src={web4}
+                    src={web2}
                     alt="random"
                     className="rounded-md duration-200 hover:scale-105"
                   />
                   <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4 dark:text-gray-200">
-                    One
+                    Git-Hub Profile Finder
                   </h2>
                 </div>
               </a>
@@ -379,4 +379,5 @@ export default function Home() {
     </div>
   );
 }
+
 
