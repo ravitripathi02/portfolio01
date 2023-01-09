@@ -224,7 +224,7 @@ export default function Home() {
               </a>
             </div>
             <div className=" mx-auto grid md:grid-cols-2 gap-8">
-              <a href="#" className="py-4">
+              <a href="https://github.com/ravitripathi02/cryptotrack" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
                     src={web3}
