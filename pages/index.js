@@ -198,7 +198,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col  lg:flex-row lg:flex-wrap basis-1/3 flex-1">
             <div className=" mx-auto grid md:grid-cols-2 gap-8">
-              <a href="#" className="py-4">
+              <a href="https://github.com/ravitripathi02/book_recommender" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
                     src={web1}
