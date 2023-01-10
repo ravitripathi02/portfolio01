@@ -210,7 +210,7 @@ export default function Home() {
                   </h2>
                 </div>
               </a>
-              <a href="#" className="py-4">
+              <a href="https://ravitripathi02.github.io/githubprofilefinder/one.html" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay ">
                   <Image
                     src={web2}
