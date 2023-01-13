@@ -3,8 +3,9 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
+  AiFillInstagram,
 } from "react-icons/ai";
-import { FaFacebook, FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
