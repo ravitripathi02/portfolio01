@@ -117,7 +117,7 @@ export default function Home() {
                       <Image src={pp3} width="64px" height="64px" alt="/" />
                     </div>
                     <div className="flex flex-col items-center justify-center">
-                      <h3>GeeksForGeeks</h3>
+                      <h3>CodeChef</h3>
                     </div>
                   </div>
                 </div>
