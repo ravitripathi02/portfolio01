@@ -4,7 +4,7 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
-import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
@@ -68,7 +68,7 @@ export default function Home() {
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
               <AiFillLinkedin />
-              <AiFillYoutube />
+              <AiFillInstagram />
             </div>
 
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-96 md:w-96">
