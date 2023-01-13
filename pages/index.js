@@ -17,8 +17,12 @@ import web2 from "../public/github.png";
 import web3 from "../public/cryptoTrack.gif";
 import web4 from "../public/calculator.gif";
 import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import pp1 from "../public/gfg.png";
+import pp2 from "../public/leetcode.png";
+import pp3 from "../public/codechef.png";
+
 import contactus from "../public/contact-us.png";
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -58,8 +62,8 @@ export default function Home() {
               Developer and designer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              Hi there, My name is Ravi Tripathi. I'm an Engineering Student
+              whose passion is to develop project & to learn new technologies.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
@@ -74,19 +78,50 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
+            <div className="py-4">
+              <h3 className="text-3xl py-1 dark:text-white ">
+                Programming Profile
+              </h3>
+            </div>
+
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 ">
+              <a href="https://auth.geeksforgeeks.org/user/ravitripathi1203/practice/">
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-white">
+                  <div className="grid justify-center items-center">
+                    <div className="m-auto justify-center items-center">
+                      <Image src={pp1} width="64px" height="64px" alt="/" />
+                    </div>
+                    <div className="flex flex-col items-center justify-center px-10">
+                      <h3>GeeksForGeeks</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="https://leetcode.com/ravi_tripathi98/">
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-white">
+                  <div className="grid justify-center items-center">
+                    <div className="m-auto justify-center items-center">
+                      <Image src={pp2} width="64px" height="64px" alt="/" />
+                    </div>
+                    <div className="flex flex-col items-center justify-center">
+                      <h3>Leetcode</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="https://www.codechef.com/users/ravi98iii">
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-white">
+                  <div className="grid justify-center items-center">
+                    <div className="m-auto justify-center items-center">
+                      <Image src={pp3} width="64px" height="64px" alt="/" />
+                    </div>
+                    <div className="flex flex-col items-center justify-center">
+                      <h3>GeeksForGeeks</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
           <div id="skills" className="py-10 p-2">
             <div className="max-w mx-auto flex flex-col justify-center h-full">
