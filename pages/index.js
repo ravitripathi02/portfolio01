@@ -18,6 +18,7 @@ import web2 from "../public/github.png";
 import web3 from "../public/cryptoTrack.gif";
 import web4 from "../public/calculator.gif";
 import web5 from "../public/web5.png";
+import web5 from "../public/tictactoe.gif";
 import pp1 from "../public/gfg.png";
 import pp2 from "../public/leetcode.png";
 import pp3 from "../public/codechef.png";
@@ -289,10 +290,10 @@ export default function Home() {
               </a>
             </div>
             <div className=" mx-auto grid md:grid-cols-2 gap-8">
-              <a href="#" className="py-4">
+              <a href="https://github.com/ravitripathi02/tictactoe" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
-                    src={web5}
+                    src={web6}
                     alt="random"
                     className="rounded-md duration-200 hover:scale-105"
                   />
