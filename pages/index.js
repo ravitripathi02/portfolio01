@@ -354,7 +354,7 @@ export default function Home() {
                 <div className="w-full md:w-1/2 h-full rounded-xl p-4">
                   <div className="p-4 text-left">
                     <form
-                      action="https://getform.io/f/357378e6-dce8-451c-8d15-226c219dc76a"
+                      action="https://getform.io/f/f7b86a62-bbef-4301-9173-26aa1cd98448"
                       method="POST"
                     >
                       <div className="grid grid-cols-2 gap-4 w-full py-2">
