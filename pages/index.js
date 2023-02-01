@@ -18,7 +18,7 @@ import web2 from "../public/github.png";
 import web3 from "../public/cryptoTrack.gif";
 import web4 from "../public/calculator.gif";
 import web5 from "../public/web5.png";
-import web5 from "../public/tictactoe.gif";
+import web6 from "../public/tictactoe.gif";
 import pp1 from "../public/gfg.png";
 import pp2 from "../public/leetcode.png";
 import pp3 from "../public/codechef.png";
@@ -298,7 +298,7 @@ export default function Home() {
                     className="rounded-md duration-200 hover:scale-105"
                   />
                   <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4 dark:text-gray-200">
-                    One
+                    Tac-Tac-Toe
                   </h2>
                 </div>
               </a>
