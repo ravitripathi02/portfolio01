@@ -17,7 +17,7 @@ import web1 from "../public/design.gif";
 import web2 from "../public/github.png";
 import web3 from "../public/cryptoTrack.gif";
 import web4 from "../public/calculator.gif";
-import web5 from "../public/web5.png";
+import web5 from "../public/gow.gif";
 import web6 from "../public/tictactoe.gif";
 import pp1 from "../public/gfg.png";
 import pp2 from "../public/leetcode.png";
@@ -290,6 +290,19 @@ export default function Home() {
               </a>
             </div>
             <div className=" mx-auto grid md:grid-cols-2 gap-8">
+                            
+              <a href="https://movie-app-indol-one.vercel.app/" className="py-4">
+                <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
+                  <Image
+                    src={web5}
+                    alt="random"
+                    className="rounded-md duration-200 hover:scale-105"
+                  />
+                  <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4 dark:text-gray-200">
+                    Movie App- Based on API
+                  </h2>
+                </div>
+              </a>
               <a href="https://github.com/ravitripathi02/tictactoe" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
@@ -301,19 +314,7 @@ export default function Home() {
                     Tac-Tac-Toe
                   </h2>
                 </div>
-              </a>
-              <a href="#" className="py-4">
-                <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
-                  <Image
-                    src={web5}
-                    alt="random"
-                    className="rounded-md duration-200 hover:scale-105"
-                  />
-                  <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4 dark:text-gray-200">
-                    One
-                  </h2>
-                </div>
-              </a>
+                </a>
             </div>
           </div>
         </section>
