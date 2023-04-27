@@ -368,6 +368,7 @@ export default function Home() {
                             type="text"
                             name="name"
                             className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
+                             required
                           />
                         </div>
                         <div className="flex flex-col">
@@ -378,6 +379,7 @@ export default function Home() {
                             type="text"
                             name="phone"
                             className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
+                           
                           />
                         </div>
 
@@ -389,6 +391,7 @@ export default function Home() {
                             type="email"
                             name="email"
                             className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
+                             required
                           />
                         </div>
                         <div className="flex flex-col col-span-2">
@@ -399,6 +402,7 @@ export default function Home() {
                             name="message"
                             rows="10"
                             className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
+                             required
                           ></textarea>
                         </div>
                       </div>
