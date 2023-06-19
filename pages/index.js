@@ -19,6 +19,7 @@ import web3 from "../public/cryptoTrack.gif";
 import web4 from "../public/calculator.gif";
 import web5 from "../public/gow.gif";
 import web6 from "../public/tictactoe.gif";
+import web7 from "../public/dashboard.gif";
 import pp1 from "../public/gfg.png";
 import pp2 from "../public/leetcode.png";
 import pp3 from "../public/codechef.png";
@@ -321,7 +322,7 @@ export default function Home() {
               <a href="https://dashboard-iota-snowy.vercel.app/" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
-                    src={web5}
+                    src={web7}
                     alt="random"
                     className="rounded-md duration-200 hover:scale-105"
                   />
