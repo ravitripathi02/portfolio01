@@ -316,6 +316,21 @@ export default function Home() {
                 </div>
                 </a>
             </div>
+                       <div className=" mx-auto grid md:grid-cols-2 gap-8">
+                            
+              <a href="https://dashboard-iota-snowy.vercel.app/" className="py-4">
+                <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
+                  <Image
+                    src={web5}
+                    alt="random"
+                    className="rounded-md duration-200 hover:scale-105"
+                  />
+                  <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4 dark:text-gray-200">
+                   Dashboard- Desktop View
+                  </h2>
+                </div>
+              </a>
+            </div>
           </div>
         </section>
         <section>
