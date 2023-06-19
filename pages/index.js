@@ -19,7 +19,7 @@ import web3 from "../public/cryptoTrack.gif";
 import web4 from "../public/calculator.gif";
 import web5 from "../public/gow.gif";
 import web6 from "../public/tictactoe.gif";
-import web7 from "../public/dashboard.gif";
+import web7 from "../public/web7.gif";
 import pp1 from "../public/gfg.png";
 import pp2 from "../public/leetcode.png";
 import pp3 from "../public/codechef.png";
