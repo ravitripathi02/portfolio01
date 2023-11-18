@@ -15,7 +15,7 @@ import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/design.gif";
 import web2 from "../public/github.png";
-import web3 from "../public/Untitled design (3).gif";
+import web3 from "../public/Untitled design (4).gif";
 import web4 from "../public/calculator.gif";
 import web5 from "../public/gow.gif";
 import web6 from "../public/tictactoe.gif";
