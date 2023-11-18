@@ -262,7 +262,7 @@ export default function Home() {
               </a>
             </div>
             <div className=" mx-auto grid md:grid-cols-2 gap-8">
-              <a href="https://github.com/ravitripathi02/cryptotrack" className="py-4">
+              <a href="https://m5tryx.csb.app/" className="py-4">
                 <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md bg-blend-overlay">
                   <Image
                     src={web3}
@@ -270,7 +270,7 @@ export default function Home() {
                     className="rounded-md duration-200 hover:scale-105"
                   />
                   <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4 dark:text-gray-200">
-                    CryptoTrack- Tracker of all Digital Coins
+                   E-Comm: Front-End
                   </h2>
                 </div>
               </a>
