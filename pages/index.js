@@ -8,26 +8,31 @@ import {
 import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import consulting from "../public/consulting.png";
+import deved from "@/public/dev-ed-wave.png";
+import code from "@/public//code.png";
+import design from "@/public/design.png";
+import consulting from "@/public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/design.gif";
-import web2 from "../public/github.png";
-import web3 from "../public/Untitled design (4).gif";
-import web4 from "../public/calculator.gif";
-import web5 from "../public/gow.gif";
-import web6 from "../public/tictactoe.gif";
-import web7 from "../public/web7.gif";
-import pp1 from "../public/gfg.png";
-import pp2 from "../public/leetcode.png";
-import pp3 from "../public/codechef.png";
+import web1 from "@/public/design.gif";
+import web2 from "@/public/github.png";
+import web3 from "@/public/Untitled design (4).gif";
+import web4 from "@/public/calculator.gif";
+import web5 from "@/public/gow.gif";
+import web6 from "@/public/tictactoe.gif";
+import web7 from "@/public/web7.gif";
+import pp1 from "@/public/gfg.png";
+import pp2 from "@/public/leetcode.png";
+import pp3 from "@/public/codechef.png";
 
-import contactus from "../public/contact-us.png";
+import contactus from "@/public/contact-us.png";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    if (typeof window !== "undefined") {
+      return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    }
+    return false;
+  });
 
   return (
     <div className={darkMode ? "dark" : ""}>
